@@ -1,0 +1,14 @@
+POST http://localhost:8080/orquestator/ingest/intercourse
+Content-Type: application/json
+
+{
+  "condom": "true"
+}
+
+### POST con false
+POST http://localhost:8080/orquestator/ingest/intercourse
+Content-Type: application/json
+
+{
+  "condom": "false"
+}
