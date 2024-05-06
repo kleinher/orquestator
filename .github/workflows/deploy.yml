@@ -35,4 +35,4 @@ jobs:
             docker build -t orquestator:latest .
             docker stop orquestator || true
             docker rm orquestator || true
-            docker run -d --name orquestator -p 80:80 orquestator:latest
+            docker run -e SPRING_DATASOURCE_URL=${{ secrets.DB_URL }} -e SPRING_DATASOURCE_USERNAME=${{ secrets.DB_USERNAME }} -e SPRING_DATASOURCE_PASSWORD=${{ secrets.DB_PASSWORD }} -d --name orquestator -p 8080:8080 orquestator:latest
