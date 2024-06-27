@@ -1,19 +1,19 @@
 # Orquestator
-## Descripción
+## Description
 
-Orquestator es un backend desarrollado en Java utilizando Spring Boot. Este proyecto está diseñado para ser desplegado en una instancia EC2 de AWS, con una base de datos RDS. Utiliza GitHub Actions para la integración y despliegue continuo.
+Orquestator is a backend developed in Java using Spring Boot. This project is designed to be deployed on an AWS EC2 instance, with an RDS database. It utilizes GitHub Actions for continuous integration and deployment.
 
-## Características
+## Features
 
-    - Desarrollo en Java con Spring Boot.
-    - Despliegue automatizado en EC2 utilizando GitHub Actions.
-    - Integración con base de datos RDS en AWS.
-    - Implementación de prácticas de CI/CD.
+    - Developed in Java with Spring Boot.
+    - Automated deployment on EC2 using GitHub Actions.
+    - Integration with an RDS database on AWS.
+    - Implementation of CI/CD practices.
 
-## Requisitos
+## Requirements
 
-    1. Java 11 o superior
+    1. Java 11 or higher
     2. Maven
-    3. AWS CLI configurado
-    4. Instancia EC2 en AWS
-    5. Base de datos RDS en AWS
+    3. AWS CLI configured
+    4. EC2 instance on AWS
+    5. RDS database on AWS
